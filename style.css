@@ -1,0 +1,263 @@
+.light-theme {
+  background:#FFFFFF;
+}
+
+.light-theme .logo {
+  background: url("img/logo-light.png")
+}
+
+.light-theme .header {
+  width: 100%;
+  height: 100vh;
+  background: url("img/bg-light.jpg") center no-repeat;
+
+  background-size: cover;
+}
+
+.light-theme .nav-item-child {
+  color:#000000;
+}
+
+.light-theme .en:hover {
+  color:#FFFFFF;
+}
+
+.light-theme .ru:hover {
+  color: #FFFFFF;
+}
+
+.light-theme .dark {
+  display: none;
+}
+
+.light-theme .name {
+  color: #000000;
+}
+
+.light-theme .bio {
+  color: #000000;
+}
+
+.nav-item-child {
+  display: inline-block;
+  vertical-align: top;
+  margin: 0 30px;
+  text-decoration: none;
+  
+}
+
+.dark-theme {
+  background: #000000;
+}
+
+.dark-theme .nav-item-child {
+  color: #FFFFFF;
+}
+
+.dark-theme .logo {
+  background: url("img/logo1.png")
+}
+
+.dark-theme .change-theme {
+  background: url("img/carbon_sun.svg") center no-repeat;
+}
+
+.dark-theme .enru {
+  color: #FFFFFF;
+}
+
+.dark-theme .en:hover {
+  color: #BDAE82;
+}
+
+.dark-theme .ru:hover {
+  color: #BDAE82;
+}
+
+.dark-theme .light {
+  display: none;
+}
+
+.dark-theme .bio-btn {
+  background-color: #BDAE82;
+}
+
+.dark-theme h2 {
+  color:#BDAE82;
+}
+
+.dark-theme h5 {
+  color: #FFFFFF;
+}
+
+.dark-theme p {
+  color: #FFFFFF;
+}
+
+.dark-theme .portfolio-btn {
+  background-color:#000000;
+  color:#BDAE82;
+}
+
+.header {
+  width: 100%;
+  height: 100vh;
+  background: url("img/bg.jpg") center no-repeat;
+  
+  background-size: cover;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 90px;
+  margin: 0 auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  align-items: center;
+}
+
+.menu-container {
+  display: flex;
+  margin-right: 30px;
+}
+
+.nav-menu {
+  font-size: 20px;
+  display: flex;
+}
+
+.enru { 
+  display: flex;
+  font-size: 20px;
+  margin-right: 30px;
+}
+
+.en {
+  cursor: pointer;
+}
+
+.ru {
+  cursor: pointer;
+}
+
+.nav-item {
+  list-style-type: none;
+}
+
+.change-theme {
+  cursor: pointer;
+}
+
+.logo {
+  cursor: pointer;
+  
+}
+
+.logo {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  left: 20px;
+  top: 20px;
+}
+
+h1 {
+  font-size: 60px;
+}
+
+h2 {
+  font-size: 40px;
+}
+
+.intro {
+  display: inline-block;
+  width: 500px;
+  margin-top: 250px;
+  margin-left: 80px;
+  color:#FFFFFF;
+  line-height: 40px;
+}
+
+.bio {
+  font-size: 20px;
+}
+
+.bio-btn {
+  font-size: 20px;
+  width: 220px;
+  height: 55px;
+  background-color: #FFFFFF;
+  border: none;
+  cursor: pointer;
+}
+
+.bio-btn:hover {
+  background:#000000;
+  color:#FFFFFF;
+}
+
+.dark-theme .bio-btn:hover {
+  background:#FFFFFF;
+  color:#000000;
+}
+
+.skills {
+  width: 100%;
+  display: inline-block;
+  align-items: center;
+}
+
+.skills-list {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  
+}
+
+.skills-list-item {
+  width: 320px;
+  height: 240px;
+  margin: auto;
+}
+
+.menu-item {
+  margin-top: 100px;
+  margin-bottom: 60px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 700px;
+  text-align: center;
+}
+
+.portfolio {
+  width: 100%;
+  display: inline-block;
+  align-items: center;
+}
+
+.portfolio-menu {
+  width: 895px;
+  height: 55px;
+  display: flex;
+  margin: auto;
+}
+
+.portfolio-btn {
+  width: 220px;
+  text-align: center;
+  margin: 5px;
+  border-radius: 0;
+  border-color: #BDAE82;
+  background:#FFFFFF;
+  cursor: pointer;
+}
+
+.portfolio-btn:hover {
+  background:#BDAE82;
+  color:#FFFFFF;
+}
