@@ -413,7 +413,7 @@ h2 {
 }
 
 .contact {
-  background: url("/img/contacts-light.jpg") center no-repeat;
+  background: url("img/contacts-light.jpg") center no-repeat;
   width: 100%;
   height: 100vh;
   background-size: cover;
@@ -421,7 +421,7 @@ h2 {
 }
 
 .dark-theme .contact {
-  background: url("/img/contacts-dark.jpg") center no-repeat;
+  background: url("img/contacts-dark.jpg") center no-repeat;
   width: 100%;
   height: 100vh;
   background-size: cover;
