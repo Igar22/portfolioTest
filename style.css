@@ -3,13 +3,13 @@
 }
 
 .light-theme .logo {
-  background: url("../img/logo-light.png")
+  background: url("img/logo-light.png")
 }
 
 .light-theme .header {
   width: 100%;
   height: 100vh;
-  background: url("../img/bg-light.jpg") center no-repeat;
+  background: url("img/bg-light.jpg") center no-repeat;
 
   background-size: cover;
 }
@@ -55,11 +55,11 @@
 }
 
 .dark-theme .logo {
-  background: url("../img/logo1.png")
+  background: url("img/logo1.png")
 }
 
 .dark-theme .change-theme {
-  background: url("../img/carbon_sun.svg") center no-repeat;
+  background: url("img/carbon_sun.svg") center no-repeat;
 }
 
 .dark-theme .enru {
@@ -102,7 +102,7 @@
 .header {
   width: 100%;
   height: 100vh;
-  background: url("../img/bg.jpg") center no-repeat;
+  background: url("img/bg.jpg") center no-repeat;
   
   background-size: cover;
 }
@@ -413,7 +413,7 @@ h2 {
 }
 
 .contact {
-  background: url("../img/contacts-light.jpg") center no-repeat;
+  background: url("/img/contacts-light.jpg") center no-repeat;
   width: 100%;
   height: 100vh;
   background-size: cover;
@@ -421,7 +421,7 @@ h2 {
 }
 
 .dark-theme .contact {
-  background: url("../img/contacts-dark.jpg") center no-repeat;
+  background: url("/img/contacts-dark.jpg") center no-repeat;
   width: 100%;
   height: 100vh;
   background-size: cover;
