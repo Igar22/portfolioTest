@@ -15,9 +15,12 @@ changeThemeDark.addEventListener('click', () => {
   page.classList.toggle('light-theme')
 })
 
+langEn.classList.add('push-en')
 langRu.addEventListener('click', changeRu)
 langEn.addEventListener('click', changeEn)
 function changeRu() {
+  langRu.classList.toggle('push-ru')
+  langEn.classList.toggle('push-en')
   for(let key in i18Obj['ru']) {
     let el = document.querySelector('.lang-' + key)
     el.innerHTML = i18Obj['ru'][key]
@@ -25,6 +28,10 @@ function changeRu() {
 }
 
 function changeEn() {
+  langRu.classList.toggle('push-ru')
+  langEn.classList.toggle('push-en')
+  langRu.classList.toggle('push-ru-dark')
+  langEn.classList.toggle('push-en-dark')    
   for(let key in i18Obj['en']) {
     let el = document.querySelector('.lang-' + key)
     el.innerHTML = i18Obj['en'][key]
@@ -87,3 +94,40 @@ portfolioBtn[3].addEventListener('click', () => {
   autumn.style = 'display: block;'
 })
 
+const form = document.querySelector('form')
+const email = document.querySelector('.email')
+const phone = document.querySelector('.phone')
+const message = document.querySelector('textarea')
+const submit = document.querySelector('.submit')
+const inputs = document.querySelectorAll('input')
+
+// inputs.addEventListener('input', function(event) {
+//   if(!event.target.value) {
+//     event.target.classList.add('error')
+//   } else {
+//     event.target.classList.remove('error')
+//   }
+// })
+
+form.addEventListener('submit', validate)
+function validate(event) {
+  event.preventDefault()
+  inputs.forEach(element => {
+    if(!element.value) {
+      element.classList.add('error')
+    } else {
+      element.classList.remove('error')
+    }
+  })
+
+  const valueEmail = email.value
+  const valuePhone = phone.value
+  const valueMessage = message.value
+  console.log(valueEmail, valuePhone)
+  const objData = {
+    valueEmail,
+    valuePhone,
+    valueMessage
+  }
+  console.log(JSON.stringify(objData))
+}

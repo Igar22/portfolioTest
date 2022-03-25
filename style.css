@@ -26,6 +26,10 @@
   color: #FFFFFF;
 }
 
+.push-ru, .push-en{
+  color:#FFFFFF;
+}
+
 .light-theme .dark {
   display: none;
 }
@@ -62,9 +66,13 @@
   background: url("img/carbon_sun.svg") center no-repeat;
 }
 
-.dark-theme .enru {
+.dark-theme .ru {
   color: #FFFFFF;
 }
+
+/* .dark-theme .en {
+  color:#BDAE82;
+} */
 
 .dark-theme .en:hover {
   color: #BDAE82;
@@ -500,3 +508,6 @@ footer {
   margin: 0 0 0 auto;
 }
 
+.error {
+  border: 3px solid red
+}
